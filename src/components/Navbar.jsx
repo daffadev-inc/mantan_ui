@@ -11,7 +11,7 @@ export default function Navbar() {
 
                 <ul className="nav-links displayFlex itemsCenter">
                     <li className="fontSemiBold textBlack listNoStyle p2">
-                        <a href="https://github.com/BOTproject7897/Mantan-UI" className="" title='View on Github'>
+                        <a href="https://github.com/daffadev-inc/mantan_ui" className="" title='View on Github'>
                             <i className="fab fa-github textTeal6 textXl hover:textTeal3"></i>
                         </a>
                     </li>
