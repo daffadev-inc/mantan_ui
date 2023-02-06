@@ -12,11 +12,11 @@ export default function Navbar() {
                 <ul className="nav-links displayFlex itemsCenter">
                     <li className="fontSemiBold textBlack listNoStyle p2">
                         <a href="https://github.com/daffadev-inc/mantan_ui" className="" title='View on Github'>
-                            <i className="fab fa-github textTeal6 textXl hover:textTeal3"></i>
+                            <i className="fab fa-github textBlack textXl hover:textTeal3"></i>
                         </a>
                     </li>
                     <li className="textLg fontSemiBold textGray4 listNoStyle p2">
-                        <button className="p2 roundedPill bgTeal6 hover:bgTeal3 borderNone">
+                        <button className="p2 roundedPill bgBlack hover:bgTeal3 borderNone">
                             <i className="fas fa-moon textWhite textRg"></i>
                         </button>
                     </li>
