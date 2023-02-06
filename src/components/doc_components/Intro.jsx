@@ -20,17 +20,17 @@ export default function Intro() {
             <div className="intro textGray4">
                 <h1 className="textXl textGray5 mb4">Perkenalan</h1>
                 <h2 className="textMd fontSemiBold lineHeightLg mb4">
-                Framework CSS yang terinspirasi dari <a href="https://tailwindcss.com/" target='_blank' rel="noreferrer noopener" className="textBlue4">TailwindCSS</a> 
-                    &nbsp;yang memungkinkan anda membuat situs web modern dengan cepat tanpa meninggalkan HTML.
+                <b className="textBlue4">Mantan_UI,</b> Framework CSS yang terinspirasi dari <a href="https://tailwindcss.com/" target='_blank' rel="noreferrer noopener" className="textBlue4">TailwindCSS</a> 
+                    &nbsp;memungkinkan anda membuat situs web dengan cepat tanpa meninggalkan HTML.
                 </h2>
                 <p className="textRg lineHeightLg fontNormal textGray5 mb4">
-                    <b className="textBlue4">Mantan-UI</b> adalah kerangka kerja CSS utilitas-pertama yang dikemas dengan kelas-kelas seperti <span className=" lineHeightMd fontSemiBold">displayFlex, pt4, textCenter, gridColSpan6</span> dll yang dapat disusun untuk membuat desain apa pun, langsung di markup anda. Bahkan dengan palet warna dan skala ukuran yang sama, mudah untuk membuat komponen yang sama dengan tampilan yang sama sekali berbeda di project berikutnya.<br/>
+                    <b className="textBlue4">Mantan_UI</b> adalah framework CSS First-Utility yang dikemas dengan class-class seperti <span className=" lineHeightMd fontSemiBold">displayFlex, pt4, textCenter, gridColSpan6</span> dll yang dapat disusun untuk membuat desain apa pun, langsung di markup anda. Bahkan dengan palet warna dan skala ukuran yang sama, mudah untuk membuat komponen yang sama dengan tampilan yang sama sekali berbeda di project berikutnya.<br/>
 					Meskipun belum sepenuhnya selesai, framework CSS <b className="textBlue4">Mantan_UI</b> ini sudah dapat digunakan.
                 </p>
             </div>
             <div className="installation mt8 md:mt12 mb4">
                 <h3 className="textLg fontSemiBold mb2">Installasi</h3>
-                <small className="textRg textGray4">Cara mengaktifkan dan menjalankan Mantan-UI di proyek website anda.</small>
+                <small className="textRg textGray4">Cara mengaktifkan dan menjalankan Mantan_UI di project website anda.</small>
 
                 <p className="mt4 mb4">anda dapat langsung mengimpor file css di html anda menggunakan tautan tag HEAD berikut.</p>
 
@@ -38,7 +38,7 @@ export default function Intro() {
 
                 <p className="note p2 border borderOrange3 bgOrange1 textOrange6 rounded mt4 mb4">
                     <i className="fas fa-exclamation-circle mr1"></i>
-                    <strong>Note:</strong> Import style css anda sendiri setelah anda mengimpor mantan-ui, jadi saat anda mau, anda dapat mengganti class mantan-ui.
+                    <strong>Note:</strong> Import style css anda sendiri setelah anda mengimpor mantan_ui, jadi saat anda mau, anda dapat mengganti class mantan-ui.
                 </p>
             </div>
 
@@ -103,7 +103,7 @@ export default function Intro() {
                 <div className="mt8 mb12">
                     <h4 className="mt2 mb2 textGray5">Kekhawatiran?</h4>
                     <p className="concerns textRg lineHeightMd fontNormal textGray5 mb4">
-                        Kekhawatiran pemeliharaan terbesar saat menggunakan pendekatan utilitas-pertama adalah mengelola kombinasi utilitas yang sering diulang.<br/>
+                        Kekhawatiran pemeliharaan terbesar saat menggunakan pendekatan first-utility adalah mengelola kombinasi utilitas yang sering diulang.<br/>
                         Ini mudah dipecahkan dengan mengekstraksi komponen, biasanya sebagai sebagian atau komponen template. 
                     </p>
                 </div>
