@@ -120,18 +120,15 @@ export default function Cards() {
 
             <div className=" mb12 textGray5">
                 <h4 className="mb1 fontSemiBold">Text only card</h4>
-                {/* <p className="mb4">Wrap your input and label insida a parent div and give it a class of <span className="bgGray1 p1">displayFlex</span> & <span className="bgGray1 p1">flexCol</span>. This will stack the child elements vertically.</p> */}
                 <CodeDemo code={textCardCode} codeTitle={'Text only card with link'} codeActions={true}/>
             </div>
             <div className=" mb12 textGray5">
                 <h4 className="mb1 fontSemiBold">Card with image</h4>
-                {/* <p className="">To turn images into a circle, you need image of equal height and width. Give it a class <span className="bgGray1 p1">roundedFull</span></p> */}
                 <CodeDemo code={imageCardCode} codeTitle={'Card with image and buttons'} codeActions={true}/>
             </div>
 
             <div className=" mb12 textGray5">
                 <h4 className="mb1 fontSemiBold">Horizontal Card</h4>
-                {/* <p className="">To turn images into a circle, you need image of equal height and width. Give it a class <span className="bgGray1 p1">roundedFull</span></p> */}
                 <CodeDemo code={horizontalCardCode} codeTitle={'Horizontal card'} codeActions={true}/>
             </div>
             

@@ -15,6 +15,11 @@ const appIndex = [
                 active: false
             },
             {
+                name: 'Modals',
+                component: 'Modals',
+                active: false
+            },
+            {
                 name: 'Forms',
                 component: 'Forms',
                 active: false

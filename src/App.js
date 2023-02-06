@@ -14,6 +14,7 @@ import Inputs from './components/doc_components/Inputs';
 import Navbars from './components/doc_components/Navbars';
 
 import Cards from './components/doc_patterns/Cards';
+import Modals from './components/doc_patterns/Modals';
 import Forms from './components/doc_patterns/Forms';
 import HeroSections from './components/doc_patterns/HeroSections';
 
@@ -107,6 +108,7 @@ function App() {
           { activeTopicName === 'Inputs' && <Inputs />}
           { activeTopicName === 'Navbars' && <Navbars />}
           { activeTopicName === 'Cards' && <Cards />}
+          { activeTopicName === 'Modals' && <Modals />}
           { activeTopicName === 'Forms' && <Forms />}
           { activeTopicName === 'Hero Sections' && <HeroSections />}
 
@@ -132,7 +134,7 @@ function App() {
       </main>
       
       <footer className='wFull flexCenter textCenter textGray4 mt18 h12 pt2 pb2 bgGray1 zIndex0'>
-        made by 
+        Developed by 
         <a href="https://daffadev.my.id" target="_blank" rel='noopener noreferrer' className=" logofont ml2 textTeal4 underline hover:textTeal5" title="Developer's Blog">Daffa</a>
 
         <button onClick={scrollToTop} className="btn-to-top borderNone p1 rounded textSm textTeal5 hover:textTeal4" title='Scroll to top'>
