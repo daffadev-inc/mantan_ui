@@ -10,7 +10,7 @@ export default function Modals() {
      </div>
     <div id="modalOpen" class="modalWindow">
         <div>
-            <a href="#" title="Close" class="modalClose">Close</a>
+            <a href="javascript:void(0);" title="Close" class="modalClose">Close</a>
                 <h1>Hallo!</h1>
             <div>
             Modals CSS-only berdasarkan :target pseudo-class. Semoga bisa membantu project anda.
